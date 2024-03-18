@@ -1,0 +1,30 @@
+
+ Inplace : Yes (if we are not creating extra array)
+ Stable : Yes ( if we are only swap when current element is greater than other)
+
+                    Space Complexity        Time Complexity        Inplace          Stable
+
+1 SelectionSort       O(1)                  Best: O(n^2)            Yes               No
+                                            Worst: O(n^2)
+                                            Average: O(n^2)
+
+
+2 BubbleSort          O(1)                  Best: O(n)              Yes               Yes
+                                            Worst: O(n^2)
+                                            Average: O(n^2)
+
+
+3 InsertionSort       O(1)                   Best: O(n)             Yes               Yes
+                                             Worst: O(n^2)
+                                             Average: O(n^2)
+
+
+
+4 MergeSort           O(1)                    Best: O(n logn)        No              Yes
+                                              Worst: O(n logn)
+                                              Average: O(n logn)
+
+
+5 QuickSort           O(1)                    Best: O(n logn)        Yes             No
+                                              Worst: O(n^2)
+                                              Average: O(n logn)
