@@ -2,7 +2,7 @@ package Leetcode;
 
 import java.util.Arrays;
 
-public interface SortColors_75 {
+public class SortColors_75 {
     public static void main(String[] args) {
         int[] colors = {2,0,2,1,1,0};
         approach1(colors);
