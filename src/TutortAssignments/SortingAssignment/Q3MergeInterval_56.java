@@ -2,6 +2,7 @@ package TutortAssignments.SortingAssignment;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 public class Q3MergeInterval_56 {
@@ -19,7 +20,7 @@ public class Q3MergeInterval_56 {
             return output.toArray(new int[0][]);
         }
 
-        Arrays.sort(intervals,(a,b)->a[0]-b[0]);
+        Arrays.sort(intervals, Comparator.comparingInt((int[] a) -> a[0]));
         int start = intervals[0][0];
         int end = intervals[0][1];
 
@@ -34,7 +35,5 @@ public class Q3MergeInterval_56 {
         }
         output.add(new int[]{start,end});
         return output.toArray(new int[0][]);
-
-
     }
 }
