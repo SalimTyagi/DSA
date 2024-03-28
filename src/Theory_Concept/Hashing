@@ -1,0 +1,12 @@
+Hashing is a technique in which we can map a large amount of data to smaller table using a hash
+function.
+
+why it is so famous:
+because using this hashing technique we can search the data more quickly and efficiently as compare to
+other searching technique like Linear and Binary search.
+
+why it is so efficient:
+because it uniquely identify a specific item from collections of item
+
+Note:
+ Large set of data ---> hash function ----> small data
