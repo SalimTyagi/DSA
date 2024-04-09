@@ -10,8 +10,8 @@ public class MaxPointOnLine_149 {
 
     }
 
-    static int bruteForce(int[][] points){
-
+    static int bruteForce(int[][] points) {
+        return 1;
     }
 
     static int maxPoint(int[][] points){

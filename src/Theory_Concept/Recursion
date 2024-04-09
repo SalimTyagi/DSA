@@ -1,0 +1,6 @@
+Where we apply recursion:
+
+1 whenever in a problem their is concept of choice(either we have to select or ignore it) then we need
+to apply recursion there.
+2 Optimal (means max,min,largest...)
+
