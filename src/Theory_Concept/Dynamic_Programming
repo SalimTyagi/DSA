@@ -1,0 +1,15 @@
+Dynamic Programming tries to optimise the recursion calls It is an enhanced version of recursion.
+It does not make the blind calls it saves the solutions of the sub-problem which can be used again
+later.
+
+whenever we storing the answers and using it again to stop blind/irrelevant calls it is called DP.
+
+Note: recursion with DP is more optimised solution/approach than recursion.
+
+There is two approach in DP:
+1. Top Down : number of ways to reach ith step from 1st step.
+2. Bottom Up : number of ways to reach nth step from ith step.
+
+How to identify we need to apply DP or not :
+1 if there are more than one recursive calls of same function then it may pe possible we have to use DP.
+2 Optimal (means max,min,largest...)
