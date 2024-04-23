@@ -53,6 +53,5 @@ public class ConsecutiveArrayElement {
         }
         long length = max-min+1;
         return length==set.size();
-
     }
 }
